@@ -5,13 +5,33 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  max-height: 100%;
+
+  *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+}
+
+[class*='section-'] {
+  padding-right: 20px;
+}
+[class*='section-']:last-of-type {
+  padding-right: 0;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .section-container {
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  float: left;
 }
 
 .section-2 {
@@ -27,4 +47,10 @@
 .section-4 {
 	.section-container();
 	width: 33.33333333%;
+}
+
+@media screen and (max-width: 750px) {
+  [class*='section-'] {
+    float: none;
+  }
 }
