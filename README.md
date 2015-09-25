@@ -19,3 +19,10 @@
  - gulp build-js (validate and minimalize javascript)
  - gulp build-css (validate and minimalize css)
  - gulp watch (waits for changes and compile automatic)
+
+
+ #used libories
+
+ - jQuery
+ - fullpage.js https://github.com/alvarotrigo/fullPage.js
+ -

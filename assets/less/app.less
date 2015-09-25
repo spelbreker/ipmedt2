@@ -7,6 +7,45 @@
 // grid
 @import 'grid.less';
 
-a {
-    color: red;
+@import 'vendor/jquery.fullPage';
+
+.blur(@pixels) {
+    -webkit-filter: blur(@pixels);
+    -moz-filter: blur(@pixels);
+    -o-filter: blur(@pixels);
+    -ms-filter: blur(@pixels);
+    filter: blur(@pixels);
+}
+
+.background {
+    background-image:url('../../img/wQKRKZ3.gif');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    filter: blur(5px) brightness(0.75);
+    -webkit-filter: blur(5px) brightness(0.75);
+    -moz-filter: blur(5px) brightness(0.75);
+    -ms-filter: blur(5px) brightness(0.75);
+    -o-filter: blur(5px) brightness(0.75);
+    position: absolute;
+    z-index: -1;
+
+}
+
+#SwitchImageOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    height: 250px;
+    margin-left: -275px;
+    margin-top: -125px;
+    text-align: center;
+    color: #ffffff;
 }
