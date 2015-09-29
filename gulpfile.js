@@ -10,10 +10,10 @@ gulp.task('default', ['watch']);
 // Minify jQuery: Run manually with: "gulp squish-jquery"
 gulp.task('squish-libs', function() {
   return gulp.src('assets/js/libs/**/*.js')
-	
+      .pipe(sourcemaps.init())
     .pipe(plugins.uglify())
     .pipe(plugins.concat('plugins.min.js'))
-	
+      .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('build/js'));
 });
 
