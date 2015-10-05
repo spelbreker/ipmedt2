@@ -1,0 +1,42 @@
+.push-left {
+  float: left;
+}
+
+.push-right {
+  float: right;
+}
+
+/* Fixed header and footer.
+* --------------------------------------- */
+header, footer{
+  position:fixed;
+  height: 35px;
+  display:block;
+  width: 100%;
+  background: #ffffff;
+  z-index:9;
+  color: #404040;
+  padding: 17.5px 0 0 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+header{
+  top:0px;
+  border-bottom: 1px solid #eeeeee;
+
+  .brand {
+    .push-left;
+    margin-left: 20px;
+  }
+
+  .push-right {
+    margin-right: 20px;
+  }
+
+  .blue {
+    color: @active;
+  }
+}
+footer{
+  bottom:0px;
+}

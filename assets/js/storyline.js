@@ -6,14 +6,14 @@
 $('#startReading').click(function(e){
 
     //play sound
-    $('#ModemSound').get(0).play();
+    //$('#ModemSound').get(0).play();
 
     //show connection animation
     $('#landing-txt,#startReading').hide();
     $('.connecting').show();
 
 
-    $("#ModemSound").bind('ended', function()
+    setTimeout(function()
     { //if sound end
 
         //enable scroll and arrow keys
@@ -30,7 +30,7 @@ $('#startReading').click(function(e){
             $('.connecting').hide();
         }, 2000);
 
-    });
+    },4000);
 });
 
 

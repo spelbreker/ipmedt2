@@ -5,8 +5,10 @@ var firstVisit = true;
 
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        sectionsColor: ['', '#364B60', '#364B60', '#364B60', '#364B60','#364B60', '#364B60'],
-        anchors:['landing', 'apranet','tcp-ip','websites','grafiek','bacon','ending'],
+        sectionsColor: ['','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8'],
+        anchors:['landing', 'apranet','tcp-ip','websites','grafiek','wireless','timeline'],
+        menu: true,
+        css3: true,
 
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);

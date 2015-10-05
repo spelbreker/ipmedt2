@@ -1,0 +1,28 @@
+nav {
+  ul {
+    margin: 0px;
+    padding: 0px;
+    li {
+      list-style: none;
+      float: left;
+      margin-left: 20px;
+      a {
+        color: #000000;
+        text-decoration: none;
+      }
+    }
+    li.active a{
+        color: @active;
+    }
+  }
+}
+
+nav:after {
+  clear: both;
+}
+
+@media screen and (max-width: 850px) {
+  nav {
+    visibility: hidden;
+  }
+}
