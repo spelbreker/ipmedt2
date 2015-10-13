@@ -6,9 +6,6 @@ $(function () {
     //first page
     $('#startReading').click(function(e){
 
-        //play sound
-        //$('#ModemSound').get(0).play();
-
         //show connection animation
         $('#landing-txt,#startReading').hide();
         $('.connecting').show();
@@ -33,6 +30,16 @@ $(function () {
 
         },5500);
     });
+});
+
+
+/*
+ * arpa slider
+ */
+
+$('.btn-connect').click(function(){
+    //play sound
+    $('#ModemSound').get(0).play();
 });
 
 
