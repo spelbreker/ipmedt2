@@ -49,12 +49,16 @@
     <meta property="fb:app_id" content="">
     <meta property="fb:admins" content="">
 
+    <link rel="stylesheet" href="build/css/preloader.css">
+
     <!-- CSS -->
     <link href='https://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="build/css/app.css">
 
 </head>
-<body>
+<body class="loading">
+    <div class="dots-loader"></div>
+
 <!--[if lt IE 8]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
@@ -73,15 +77,15 @@
             <span></span>
             <span></span>
         </div>
-            <nav class="push-right">
-                <ul id="menu">
-                    <li data-menuanchor="apranet"><a href="#apranet">Apranet & www</a></li>
-                    <li data-menuanchor="websites"><a href="#websites">Through the years</a></li>
-                    <li data-menuanchor="grafiek"><a href="#grafiek">Success websites</a></li>
-                    <li data-menuanchor="wireless"><a href="#wireless">Wireless vs wire</a></li>
-                    <li data-menuanchor="timeline"><a href="#timeline">Timeline</a></li>
-                </ul>
-            </nav>
+        <nav class="push-right">
+            <ul id="menu">
+                <li data-menuanchor="apranet"><a href="#apranet">Apranet & www</a></li>
+                <li data-menuanchor="websites"><a href="#websites">Through the years</a></li>
+                <li data-menuanchor="grafiek"><a href="#grafiek">Success websites</a></li>
+                <li data-menuanchor="wireless"><a href="#wireless">Wireless vs wire</a></li>
+                <li data-menuanchor="timeline"><a href="#timeline">Timeline</a></li>
+            </ul>
+        </nav>
     </header>
 
     <div id="fullpage">
@@ -140,9 +144,7 @@
 
         <div class="section">
             <div class="video-wrapper" id="arpa-wrapper">
-                <iframe id="apranet-vid" width='500' height='294'
-                        src="https://www.youtube.com/embed/h8K49dD52WA?&theme=dark&color=white&autohide=0&modestbranding=1&showinfo=0&start=3&end=187&enablejsapi=1"
-                        frameborder="0"></iframe>
+                <div id="apranet-vid"></div>
             </div>
         </div>
         <div class="section">
@@ -187,36 +189,42 @@
         <div class="section">
             <div class="container">
                 <div class="section-2">
-                <h1>Websites</h1>
+                    <h1>Websites</h1>
 
-                <p>
-                    Poké ipsum dolor sit amet pokémon Gulpin Alakazam Greninja Cherrim Ekans Snubbull Heatran Celebi
-                    Weezing Empoleon Keldeo Slowpoke Drapion Tangrowth Cranidos Dewott Hippopotas Umbreon Magnezone
-                    Shuckle Roselia Bronzor Flareon Porygon Whirlipede Bagon Kabuto Beautifly Gourgeist Maractus
-                    Pidgeotto Stoutland Shieldon Aggron Emboar Squirtle Simisear Misdreavus Heliolisk Pupitar Relicanth
-                    Spewpa Blissey Ledian Talonflame Aegislash Kakuna Grumpig Gyarados Tirtouga Archeops Seaking
-                    Shellder Rampardos Chatot Chingling Snorlax Volbeat Nidorino Golett Amoonguss Swirlix Trubbish
-                    Swablu Delcatty Pidgey Whiscash Clauncher Tentacruel
+                    <p>
+                        Poké ipsum dolor sit amet pokémon Gulpin Alakazam Greninja Cherrim Ekans Snubbull Heatran Celebi
+                        Weezing Empoleon Keldeo Slowpoke Drapion Tangrowth Cranidos Dewott Hippopotas Umbreon Magnezone
+                        Shuckle Roselia Bronzor Flareon Porygon Whirlipede Bagon Kabuto Beautifly Gourgeist Maractus
+                        Pidgeotto Stoutland Shieldon Aggron Emboar Squirtle Simisear Misdreavus Heliolisk Pupitar
+                        Relicanth
+                        Spewpa Blissey Ledian Talonflame Aegislash Kakuna Grumpig Gyarados Tirtouga Archeops Seaking
+                        Shellder Rampardos Chatot Chingling Snorlax Volbeat Nidorino Golett Amoonguss Swirlix Trubbish
+                        Swablu Delcatty Pidgey Whiscash Clauncher Tentacruel
 
-                    Hydreigon Delibird Donphan Caterpie Meganium Sableye Gligar Abomasnow Sceptile Braviary Mienshao
-                    Skiddo Grimer Registeel Kyurem Unfezant Ponyta Pidove Gastly Bergmite Fletchinder Sandile Jolteon
-                    Braixen Duosion Meloetta Snivy Patrat Munna Zangoose Zweilous Ninjask Gible Zorua Ralts Aipom Tauros
-                    Marril Elgyem Gliscor Floatzel Fennekin Walrein Dedenne Slugma Drifblim Drilbur Scraggy Latias
-                    Ferrothorn Shinx Swellow Wingull Metagross Hitmontop Venomoth Cacnea Boldore Druddigon Minccino
-                    Groudon Glalie Zekrom Pyroar Golurk Carbink Claydol Rayquaza Luvdisc Linoone
+                        Hydreigon Delibird Donphan Caterpie Meganium Sableye Gligar Abomasnow Sceptile Braviary Mienshao
+                        Skiddo Grimer Registeel Kyurem Unfezant Ponyta Pidove Gastly Bergmite Fletchinder Sandile
+                        Jolteon
+                        Braixen Duosion Meloetta Snivy Patrat Munna Zangoose Zweilous Ninjask Gible Zorua Ralts Aipom
+                        Tauros
+                        Marril Elgyem Gliscor Floatzel Fennekin Walrein Dedenne Slugma Drifblim Drilbur Scraggy Latias
+                        Ferrothorn Shinx Swellow Wingull Metagross Hitmontop Venomoth Cacnea Boldore Druddigon Minccino
+                        Groudon Glalie Zekrom Pyroar Golurk Carbink Claydol Rayquaza Luvdisc Linoone
 
-                    Regice Espurr Tropius Pikachu Octillery Mareep Regirock Darumaka Reuniclus Zygarde Lairon Garchomp
-                    Steelix Lileep Hoothoot Entei Spiritomb Arceus Lotad Huntail Rhyperior Pignite Totodile Poliwhirl
-                    Sawk Lampent Lilligant Starmie Kabutops Kangaskhan Trevenant Stantler Elekid Crobat Armaldo
-                    Aromatisse Yanma Venipede Sentret Gigalith Finneon Dunsparce Articuno Rattata Mr. Mime Swalot
-                    Cryogonal Clamperl Flygon Pelipper Cloyster Ariados Poliwrath Solosis Froakie Ducklett Shelgon
-                    Spritzee Vivillon Furfrou Scolipede Slurpuff Blitzle Budew Hariyama Magneton Vulpix Magcargo Nuzleaf
-                    Zoroark
-                </p>
+                        Regice Espurr Tropius Pikachu Octillery Mareep Regirock Darumaka Reuniclus Zygarde Lairon
+                        Garchomp
+                        Steelix Lileep Hoothoot Entei Spiritomb Arceus Lotad Huntail Rhyperior Pignite Totodile
+                        Poliwhirl
+                        Sawk Lampent Lilligant Starmie Kabutops Kangaskhan Trevenant Stantler Elekid Crobat Armaldo
+                        Aromatisse Yanma Venipede Sentret Gigalith Finneon Dunsparce Articuno Rattata Mr. Mime Swalot
+                        Cryogonal Clamperl Flygon Pelipper Cloyster Ariados Poliwrath Solosis Froakie Ducklett Shelgon
+                        Spritzee Vivillon Furfrou Scolipede Slurpuff Blitzle Budew Hariyama Magneton Vulpix Magcargo
+                        Nuzleaf
+                        Zoroark
+                    </p>
                 </div>
                 <div class="section-2">
-                <div id="websitesBubble"
-                     style="height: 400px; min-width: 310px; max-width: 600px; margin: 0 auto"></div>
+                    <div id="websitesBubble"
+                         style="height: 400px; min-width: 310px; max-width: 600px; margin: 0 auto"></div>
                 </div>
             </div>
         </div>
@@ -259,7 +267,8 @@
         <div class="section">
             <div class="container">
                 <h1>Timeline</h1>
-                <img class="responive-img" src="http://ak-hdl.buzzfed.com/static/2014-03/enhanced/webdr03/31/11/enhanced-5041-1396278170-14.jpg">
+                <img class="responive-img"
+                     src="http://ak-hdl.buzzfed.com/static/2014-03/enhanced/webdr03/31/11/enhanced-5041-1396278170-14.jpg">
             </div>
         </div>
     </div>

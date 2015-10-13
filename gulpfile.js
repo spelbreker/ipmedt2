@@ -60,12 +60,40 @@ gulp.task('build-css', function() {
         .pipe(gulp.dest('build/css')).on('error', gutil.log);
 });
 
+gulp.task('css-preloader',function(){
+    return gulp.src('assets/less/preloader.less')
+        .pipe(plugins.plumber())
+        .pipe(plugins.less())
+        .on('error', function (err) {
+            gutil.log(err);
+            this.emit('end');
+        })
+        .pipe(plugins.autoprefixer(
+            {
+                browsers: [
+                    '> 1%',
+                    'last 2 versions',
+                    'firefox >= 4',
+                    'safari 7',
+                    'safari 8',
+                    'IE 8',
+                    'IE 9',
+                    'IE 10',
+                    'IE 11'
+                ],
+                cascade: false
+            }
+        ))
+        .pipe(plugins.cssmin())
+        .pipe(gulp.dest('build/css')).on('error', gutil.log);
+});
+
 // Default task
 gulp.task('watch', function() {
     gulp.watch('assets/js/libs/**/*.js', ['squish-libs']);
     gulp.watch('assets/js/*.js', ['build-js']);
-    gulp.watch('assets/less/**/*.less', ['build-css']);
+    gulp.watch('assets/less/**/*.less', ['build-css','css-preloader']);
 });
 
 // Default task
-gulp.task('build', ['squish-libs','build-js','build-css']);
+gulp.task('build', ['squish-libs','build-js','build-css','css-preloader']);
