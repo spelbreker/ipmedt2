@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d5bf673-0bdb-4e5c-9a56-9c10e3901f9a" name="Default" comment="add site preloader&#10;youtube api">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/less/preloader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/preloader.js" />
+    <list default="true" id="2d5bf673-0bdb-4e5c-9a56-9c10e3901f9a" name="Default" comment="add site preloader&#10;youtube api added&#10;auto start en stop for video">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/arpanet-video.js" afterPath="$PROJECT_DIR$/assets/js/arpanet-video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/font.less" afterPath="$PROJECT_DIR$/assets/less/font.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/fullpage-config.js" afterPath="$PROJECT_DIR$/assets/js/fullpage-config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/storyline.js" afterPath="$PROJECT_DIR$/assets/js/storyline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/preloader.js" afterPath="$PROJECT_DIR$/assets/js/preloader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/preloader.less" afterPath="$PROJECT_DIR$/assets/less/preloader.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/less/landing.less" afterPath="$PROJECT_DIR$/assets/less/landing.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/arpanet-video.js" afterPath="$PROJECT_DIR$/assets/js/arpanet-video.js" />
     </list>
     <ignored path="ipmedt2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,105 +29,110 @@
     <favorites_list name="ipmedt2" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="arpanet-video.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/arpanet-video.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="storyline.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/js/storyline.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#0#43#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gulpfile.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="fullpage-config.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/js/fullpage-config.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33333334">
-                  <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1444398087008" expanded="true" signature="2799:2952" placeholder="..." />
-                    <marker date="1444398087008" expanded="true" signature="2892:2920" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="landing.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/less/landing.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="preloader.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/less/preloader.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="preloader.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/js/preloader.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.17171717">
-                  <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-                  <folding>
-                    <element signature="e#0#43#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1444728363220" expanded="true" signature="2829:2982" placeholder="..." />
+                <marker date="1444728363220" expanded="true" signature="2922:2950" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preloader.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/less/preloader.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preloader.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/preloader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3109756">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/less/font.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arpanet-video.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/arpanet-video.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="storyline.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/storyline.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullpage-config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/fullpage-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="websitesChart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/websitesChart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <marker date="1444727983608" expanded="true" signature="850:864" placeholder="..." />
+                <marker date="1444727983608" expanded="true" signature="932:951" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,7 +158,6 @@
         <option value="$PROJECT_DIR$/assets/js/chartconfig.js" />
         <option value="$PROJECT_DIR$/assets/js/bubleChart.js" />
         <option value="$PROJECT_DIR$/build/css/app.css" />
-        <option value="$PROJECT_DIR$/assets/less/font.less" />
         <option value="$PROJECT_DIR$/assets/less/variables.less" />
         <option value="$PROJECT_DIR$/assets/js/navigation.js" />
         <option value="$PROJECT_DIR$/youtube.html" />
@@ -166,16 +168,18 @@
         <option value="$PROJECT_DIR$/assets/less/navigation.less" />
         <option value="$PROJECT_DIR$/assets/less/header.less" />
         <option value="$PROJECT_DIR$/assets/less/app.less" />
-        <option value="$PROJECT_DIR$/assets/js/websitesChart.js" />
-        <option value="$PROJECT_DIR$/assets/js/arpanet-video.js" />
         <option value="$PROJECT_DIR$/assets/js/storyline.js" />
         <option value="$PROJECT_DIR$/assets/less/vendor/pace.less" />
-        <option value="$PROJECT_DIR$/assets/js/preloader.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/assets/less/preloader.less" />
         <option value="$PROJECT_DIR$/assets/less/landing.less" />
+        <option value="$PROJECT_DIR$/humans.txt" />
         <option value="$PROJECT_DIR$/assets/js/fullpage-config.js" />
+        <option value="$PROJECT_DIR$/assets/less/font.less" />
+        <option value="$PROJECT_DIR$/assets/js/arpanet-video.js" />
+        <option value="$PROJECT_DIR$/assets/js/websitesChart.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/less/preloader.less" />
+        <option value="$PROJECT_DIR$/assets/js/preloader.js" />
       </list>
     </option>
   </component>
@@ -257,7 +261,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -346,7 +350,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,7 +480,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444393649133</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add site preloader&#10;youtube api added&#10;auto start en stop for video">
+      <created>1444722667453</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1444722667453</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -485,14 +495,14 @@
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34030837" sideWeight="0.5066225" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15080214" sideWeight="0.49337748" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15240642" sideWeight="0.49337748" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2021978" sideWeight="0.5085561" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2021978" sideWeight="0.49144384" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42307693" sideWeight="0.49144384" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -526,23 +536,14 @@
     <MESSAGE value="animatie updat&#10;style van psd toegepast" />
     <MESSAGE value="+ add full page video&#10;+chart update&#10;+ navigation bar" />
     <MESSAGE value="+ highchart update for background&#10;+ responsive fix&#10;+ little changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ highchart update for background&#10;+ responsive fix&#10;+ little changes" />
+    <MESSAGE value="add site preloader&#10;youtube api added&#10;auto start en stop for video" />
+    <option name="LAST_COMMIT_MESSAGE" value="add site preloader&#10;youtube api added&#10;auto start en stop for video" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/js/storyline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/grid.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -557,8 +558,8 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1444398087008" expanded="true" signature="2799:2952" placeholder="..." />
-            <marker date="1444398087008" expanded="true" signature="2892:2920" placeholder="..." />
+            <marker date="1444728363220" expanded="true" signature="2829:2982" placeholder="..." />
+            <marker date="1444728363220" expanded="true" signature="2922:2950" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -599,8 +600,8 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1444398087008" expanded="true" signature="2799:2952" placeholder="..." />
-            <marker date="1444398087008" expanded="true" signature="2892:2920" placeholder="..." />
+            <marker date="1444728363220" expanded="true" signature="2829:2982" placeholder="..." />
+            <marker date="1444728363220" expanded="true" signature="2922:2950" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -619,8 +620,8 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1444398087008" expanded="true" signature="2799:2952" placeholder="..." />
-            <marker date="1444398087008" expanded="true" signature="2892:2920" placeholder="..." />
+            <marker date="1444728363220" expanded="true" signature="2829:2982" placeholder="..." />
+            <marker date="1444728363220" expanded="true" signature="2922:2950" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -668,8 +669,8 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1444398087008" expanded="true" signature="2799:2952" placeholder="..." />
-            <marker date="1444398087008" expanded="true" signature="2892:2920" placeholder="..." />
+            <marker date="1444728363220" expanded="true" signature="2829:2982" placeholder="..." />
+            <marker date="1444728363220" expanded="true" signature="2922:2950" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -832,32 +833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/font.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.050974514">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/websitesChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/navigation.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/arpanet-video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,50 +845,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/preloader.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1444398087008" expanded="true" signature="2799:2952" placeholder="..." />
-            <marker date="1444398087008" expanded="true" signature="2892:2920" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/landing.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/preloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17171717">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,11 +863,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/humans.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7673888">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/landing.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/font.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/arpanet-video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/websitesChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1444727983608" expanded="true" signature="850:864" placeholder="..." />
+            <marker date="1444727983608" expanded="true" signature="932:951" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/fullpage-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1444728363220" expanded="true" signature="2829:2982" placeholder="..." />
+            <marker date="1444728363220" expanded="true" signature="2922:2950" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/less/preloader.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3109756">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

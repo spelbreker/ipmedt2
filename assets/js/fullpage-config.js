@@ -72,13 +72,13 @@ $(function () {
 
         $(window).resize(function () {
             if($(window).width() < 900 ) {
-                $.fn.fullpage.autoScrolling(false);
-                $.fn.fullpage.fitToSection(false);
-                $.fn.fullpage.scrollingSpeed(70000000000);
+                $.fn.fullpage.setAutoScrolling(false);
+                $.fn.fullpage.setFitToSection(false);
+                $.fn.fullpage.setScrollingSpeed(70000000000);
             } else  {
-                $.fn.fullpage.autoScrolling(true);
-                $.fn.fullpage.fitToSection(true);
-                $.fn.fullpage.scrollingSpeed(700);
+                $.fn.fullpage.setAutoScrolling(true);
+                $.fn.fullpage.setFitToSection(true);
+                $.fn.fullpage.setScrollingSpeed(700);
             }
         });
 
