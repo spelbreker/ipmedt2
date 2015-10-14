@@ -8,6 +8,7 @@ nav {
       list-style: none;
       float: left;
       margin-left: 20px;
+      letter-spacing:1px;
       a {
         color: #000000;
         text-decoration: none;
@@ -41,9 +42,10 @@ nav:after {
       //border: 1px solid #404040;
       margin-left: 0px !important;
       width: 100%;
-      padding: 10px;
+      padding: 10px 10px 10px 40px;
       float: none;
       background-color: #ffffff;
+
     }
   }
 
@@ -57,9 +59,11 @@ nav:after {
    float: right;
    margin-top: 15px;
    -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
    -ms-transform: rotate(0deg);
    transform: rotate(0deg);
    -webkit-transition: 0.5s ease-in-out;
+   -moz-transition: 0.5s ease-in-out;
    transition: 0.5s ease-in-out;
    cursor: pointer;
   }
@@ -74,15 +78,18 @@ nav:after {
    opacity: 1;
    left: 0;
    -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
    -ms-transform: rotate(0deg);
    transform: rotate(0deg);
    -webkit-transition: 0.25s ease-in-out;
+   -moz-transition: 0.25s ease-in-out;
    transition: 0.25s ease-in-out;
   }
 
   #hamburger span:nth-child(1) {
     top: 0px;
     -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
     -o-transform-origin: left center;
     transform-origin: left center;
   }
@@ -90,6 +97,7 @@ nav:after {
   #hamburger span:nth-child(2) {
     top: 10px;
     -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
     -o-transform-origin: left center;
     transform-origin: left center;
   }
@@ -97,12 +105,14 @@ nav:after {
   #hamburger span:nth-child(3) {
     top: 20px;
     -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
     -o-transform-origin: left center;
     transform-origin: left center;
   }
 
   #hamburger.open span:nth-child(1) {
     -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     top: -5px;
@@ -117,6 +127,7 @@ nav:after {
 
   #hamburger.open span:nth-child(3) {
     -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
     top: 23px;
