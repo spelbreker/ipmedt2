@@ -8,7 +8,7 @@ $(function () {
         chart: {
             type: 'bubble',
             plotBorderWidth: 2,
-            zoomType: 'xy'
+            //zoomType: 'xy'
         },
 
         legend: {

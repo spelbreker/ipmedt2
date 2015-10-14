@@ -42,4 +42,6 @@ $('.btn-connect').click(function(){
     $('#ModemSound').get(0).play();
 });
 
-
+$('#ModemSound').get(0).onended = function() {
+    $.fn.fullpage.moveSectionDown();
+};

@@ -39,7 +39,7 @@ $(function () {
 
         series: [{
             name: "Brands",
-            colorByPoint: true,
+            colorByPoint: false,
             data: [{
                 name: "1991-1999",
                 y: 6988755,
