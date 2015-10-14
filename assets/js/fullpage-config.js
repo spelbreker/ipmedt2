@@ -2,6 +2,8 @@
 //full page js configuration
 
 var firstVisit = true;
+var lastIndex = 0;
+
 
 mobilefullpage = {
     sectionsColor: ['','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8'],
@@ -11,7 +13,7 @@ mobilefullpage = {
     autoScrolling: false,
     fitToSection: false,
     animateAnchor: true,
-    scrollingSpeed: 70000000000,
+    scrollingSpeed: 70000000000
 };
 
 normalfullpage = {
@@ -22,7 +24,6 @@ normalfullpage = {
 
     afterLoad: function(anchorLink, index){
         var loadedSection = $(this);
-        console.log('active');
         //using index
         if(index == 1){
             if(firstVisit) {
@@ -38,10 +39,14 @@ normalfullpage = {
         }
 
         if(index == 3) {
-            $("#apranet-vid")[0].src += "&autoplay=1";
+            playVideo();
         } else {
-            //player.stopVideo();
+            if(lastIndex == 3) {
+                stopVideo();
+            }
         }
+
+        lastIndex = index;
     }
 };
 
@@ -67,13 +72,13 @@ $(function () {
 
         $(window).resize(function () {
             if($(window).width() < 900 ) {
-                $.fn.fullpage.autoScrolling(false);
-                $.fn.fullpage.fitToSection(false);
-                $.fn.fullpage.scrollingSpeed(70000000000);
+                $.fn.fullpage.setAutoScrolling(false);
+                $.fn.fullpage.setFitToSection(false);
+                $.fn.fullpage.setScrollingSpeed(70000000000);
             } else  {
-                $.fn.fullpage.autoScrolling(true);
-                $.fn.fullpage.fitToSection(true);
-                $.fn.fullpage.scrollingSpeed(700);
+                $.fn.fullpage.setAutoScrolling(true);
+                $.fn.fullpage.setFitToSection(true);
+                $.fn.fullpage.setScrollingSpeed(700);
             }
         });
 
