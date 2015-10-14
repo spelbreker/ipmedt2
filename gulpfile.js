@@ -44,7 +44,7 @@ gulp.task('build-css', function() {
                 browsers: [
                     '> 1%',
                     'last 2 versions',
-                    'firefox >= 4',
+//                    'firefox >= 4',
                     'safari 7',
                     'safari 8',
                     'IE 8',
@@ -73,7 +73,7 @@ gulp.task('css-preloader',function(){
                 browsers: [
                     '> 1%',
                     'last 2 versions',
-                    'firefox >= 4',
+//                    'firefox >= 4',
                     'safari 7',
                     'safari 8',
                     'IE 8',
