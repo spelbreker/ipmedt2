@@ -59,3 +59,5 @@ build less and javascript
 
 ## Text sources
 - Wikipedia (https://nl.wikipedia.org/wiki/Geschiedenis_van_het_internet)
+- Wikipedia (https://en.wikipedia.org/wiki/National_Science_Foundation_Network)
+- Wikipedia (https://en.wikipedia.org/wiki/Wi-Fi)
