@@ -1,7 +1,7 @@
 // Global variables
 @import 'variables.less';
 // normalize css
-@import 'normalize.less';
+@import 'vendor/normalize.less';
 // grid
 @import 'grid.less';
 // grid
@@ -12,6 +12,7 @@
 @import 'header.less';
 @import "navigation";
 @import 'landing.less';
+@import "infographic";
 
 .section {
   padding-top: 30px;
@@ -47,4 +48,8 @@ img.responive-img {
   width: 100%;
   height: calc(100% - 30px);
   height: -webkit-calc(100% - 30px);
+}
+
+.infographic img{
+  width: 75%;
 }
