@@ -20,13 +20,13 @@ build less and javascript
  - gulp watch (waits for changes and compile automatic)
 
 
-# used libories
+# used libraries and sources
 
-## CSS toevoegingen
+## CSS libraries
 - Normalize.css (https://github.com/hearsaycorp/normalize)
 - jQuery.fullpage.css (https://github.com/alvarotrigo/fullPage.js)
 
-##Javascript bibliotheken
+##Javascript libraries
 - jQuery (https://github.com/jquery/jquery)
 - Fullpage.js (https://github.com/alvarotrigo/fullPage.js)
     - Jquery SlimScroll (https://github.com/rochal/jQuery-slimScroll)
@@ -34,7 +34,7 @@ build less and javascript
 - highcharts (https://github.com/highslide-software/highcharts.com)
 - Youtube iframe api (https://developers.google.com/youtube/iframe_api_reference)
 
-## Afbeeldingen
+## Image sources
 - Landing page background  (https://www.reddit.com/r/Cinemagraphs/comments/1ds9jm/internet_archive_server/)
 - infographic (http://matrixforce.files.wordpress.com/2013/09/old-server.png?w=878)
 - infographic (https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Speech_balloon.svg/200px-Speech_balloon.svg.png)
@@ -51,11 +51,13 @@ build less and javascript
 - infographic (http://simpleicon.com/wp-content/uploads/signal.png)
 
 
-## Geluid
+## Sound sources
 - modem inbel geluid (https://en.wikipedia.org/wiki/File:Dial_up_modem_noises.ogg)
 
-## Video
+## Videosources
 - HISTORY OF THE INTERNET video (https://www.youtube.com/watch?v=h8K49dD52WA)
 
-## text bronnen
-- Wikipeida (https://nl.wikipedia.org/wiki/Geschiedenis_van_het_internet)
+## Text sources
+- Wikipedia (https://nl.wikipedia.org/wiki/Geschiedenis_van_het_internet)
+- Wikipedia (https://en.wikipedia.org/wiki/National_Science_Foundation_Network)
+- Wikipedia (https://en.wikipedia.org/wiki/Wi-Fi)

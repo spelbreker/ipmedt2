@@ -1,7 +1,6 @@
 .background {
   background-image:url('../../img/background-landing.gif');
   -webkit-background-size: cover;
-  -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
@@ -11,8 +10,7 @@
   bottom:0px;
   filter: blur(2px) brightness(0.75);
   -webkit-filter: blur(2px) brightness(0.75);
-  -moz-filter: blur(2px) brightness(0.75);
-  -ms-filter: blur(2px) brightness(0.75);
+  -ms-filter: blur(2px);
   -o-filter: blur(2px) brightness(0.75);
   position: absolute;
   z-index: -1;
@@ -87,7 +85,6 @@
     left: -webkit-calc(50% - 160px);
     opacity: 1;
     -webkit-animation: fade-in-out 2.5s infinite;
-    -moz-animation: fade-in-out 2.5s infinite;
     -o-animation: fade-in-out 2.5s infinite;
     animation: fade-in-out 2.5s infinite;
   }
@@ -122,7 +119,6 @@
     border-radius: 360px;
     background: #fff;
     -webkit-animation: loader 5s infinite linear 0.5s;
-    -moz-animation: loader 5s infinite linear 0.5s;
     -o-animation: loader 5s infinite linear 0.5s;
     animation: loader 5s infinite linear 0.5s;
   }
@@ -147,7 +143,6 @@
     z-index: 6;
     opacity: 0;
     -webkit-animation: byte_animate 5s infinite linear 0.5s;
-    -moz-animation: byte_animate 5s infinite linear 0.5s;
     -o-animation: byte_animate 5s infinite linear 0.5s;
     animation: byte_animate 5s infinite linear 0.5s;
   }
@@ -187,33 +182,6 @@
 
   /*Byte Animation*/
   @-webkit-keyframes byte_animate{
-    0%{
-      opacity: 0;
-      left: 80px;
-    }
-    4%{
-      opacity: 1;
-    }
-    46%{
-      opacity: 1;
-    }
-    50%{
-      opacity: 0;
-      left: 185px;
-    }
-    54%{
-      opacity: 1;
-    }
-    96%{
-      opacity: 1;
-    }
-    100%{
-      opacity: 0;
-      left: 80px;
-    }
-  }
-
-  @-moz-keyframes byte_animate{
     0%{
       opacity: 0;
       left: 80px;
@@ -304,15 +272,6 @@
     }
   }
 
-  @-moz-keyframes loader{
-    0%{
-      width: 8px;
-    }
-    100%{
-      width: 63px;
-    }
-  }
-
   @-o-keyframes loader{
     0%{
       width: 8px;
@@ -334,18 +293,6 @@
 
   /*FADE IN-OUT*/
   @-webkit-keyframes fade-in-out{
-    0%{
-      opacity: 1;
-    }
-    50%{
-      opacity: 0;
-    }
-    100%{
-      opacity: 1;
-    }
-  }
-
-  @-moz-keyframes fade-in-out{
     0%{
       opacity: 1;
     }
