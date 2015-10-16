@@ -46,6 +46,26 @@ normalfullpage = {
             }
         }
 
+        //video slide
+        if(index == 3) {
+            playVideo();
+        }
+
+        //total websites
+        if(index == 4) {
+            loadWebsiteChart();
+        }
+
+        //website bubles
+        if(index == 5) {
+            loadWebsiteBuble();
+        }
+
+        //wireless vs wired
+        if(index == 6) {
+
+        }
+
         lastIndex = index;
     }
 };

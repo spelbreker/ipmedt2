@@ -1,4 +1,5 @@
-$(function () {
+    function loadWebsiteChart(){
+
     // Create the chart
     $('#websitesChart').highcharts({
         chart: {
@@ -151,4 +152,5 @@ $(function () {
             }]
         }
     });
-});
+
+    }
