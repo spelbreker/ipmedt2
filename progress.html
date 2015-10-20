@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        *, *:after, *:before {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding: 15px;
+            font-family: Helvetica, sans-serif;
+        }
+
+        input[type="button"] {
+            margin-top: 20px;
+        }
+
+        .node {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            display: inline-block;
+            transition: all 1000ms ease;
+        }
+
+        .activated {
+            box-shadow: 0px 0px 3px 2px rgba(194, 255, 194, 0.8);
+        }
+
+        .divider {
+            height: 40px;
+            width: 5px;
+            margin-left: 4px;
+            transition: all 800ms ease;
+        }
+
+        li p {
+            display: inline-block;
+            margin-left: 25px;
+        }
+
+        li {
+            list-style: none;
+            line-height: 1px;
+        }
+
+        .blue {
+            background-color: rgba(82, 165, 255, 1);
+        }
+
+        .green {
+            background-color: rgba(92, 184, 92, 1)
+        }
+
+        .red {
+            background-color: rgba(255, 148, 148, 1);
+        }
+
+        .grey {
+            background-color: rgba(201, 201, 201, 1);
+        }
+
+        .col2 {
+            width: 50%;
+            float: left;
+            height: 100%;
+
+        }
+
+        .col2 h1 {
+            vertical-align: middle;
+        }
+
+        .container {
+            height: 100%;
+        }
+
+        .container:after {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="col2">
+        <ul id="progress">
+            <li>
+                <div class="node grey"></div>
+                <p>Welcome</p></li>
+            <li>
+                <div class="divider grey"></div>
+            </li>
+            <li>
+                <div class="node grey"></div>
+                <p>What is internet?</p></li>
+            <li>
+                <div class="divider grey"></div>
+            </li>
+            <li>
+                <div class="node grey"></div>
+                <p>Rising of the domains</p></li>
+            <li>
+                <div class="divider grey"></div>
+            </li>
+            <li>
+                <div class="node grey"></div>
+                <p>Growing of large sites</p>
+            </li>
+            <li>
+                <div class="divider grey"></div>
+            </li>
+            <li>
+                <div class="node grey"></div>
+                <p>Wireless vs wired</p>
+            </li>
+            <li>
+                <div class="divider grey"></div>
+            </li>
+            <li>
+                <div class="node grey"></div>
+                <p>The future</p>
+            </li>
+        </ul>
+    </div>
+    <div class="col2">
+        <h1>We gaan jullie nu iets vertellen over de groei van aantal websites</h1>
+    </div>
+</div>
+
+<input type="button" value="Next" id="next"/>
+<input type="button" value="Clear" id="clear"/>
+
+<script>
+    var list = document.getElementById('progress'),
+            next = document.getElementById('next'),
+            clear = document.getElementById('clear'),
+            children = list.children,
+            completed = 0;
+
+    // simulate activating a node
+    next.addEventListener('click', function () {
+
+        // count the number of completed nodes.
+        completed = (completed === 0) ? 1 : completed + 2;
+        if (completed > children.length) return;
+
+        // for each node that is completed, reflect the status
+        // and show a green color!
+        for (var i = 0; i < completed; i++) {
+            children[i].children[0].classList.remove('grey');
+            children[i].children[0].classList.add('blue');
+
+            // if this child is a node and not divider,
+            // make it shine a little more
+            if (i % 2 === 0) {
+                children[i].children[0].classList.add('activated');
+            }
+        }
+
+    }, false);
+
+    // clear the activated state of the markers
+    clear.addEventListener('click', function () {
+        for (var i = 0; i < children.length; i++) {
+            children[i].children[0].classList.remove('blue');
+            children[i].children[0].classList.remove('activated');
+            children[i].children[0].classList.add('grey');
+        }
+        completed = 0;
+    }, false);
+
+</script>
+</body>
+</html>
