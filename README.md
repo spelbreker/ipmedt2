@@ -35,6 +35,7 @@ build less and javascript
 - Youtube iframe api (https://developers.google.com/youtube/iframe_api_reference)
 
 ## Image sources
+- favicon (http://www.freestockphotos.biz/stockphoto/16907)
 - Landing page background  (https://www.reddit.com/r/Cinemagraphs/comments/1ds9jm/internet_archive_server/)
 - infographic (http://matrixforce.files.wordpress.com/2013/09/old-server.png?w=878)
 - infographic (https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Speech_balloon.svg/200px-Speech_balloon.svg.png)
