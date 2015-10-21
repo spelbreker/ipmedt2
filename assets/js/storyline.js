@@ -6,16 +6,49 @@ $(function () {
     //first page
     $('#startReading').click(function(e){
 
+        $('#ModemSound').get(0).play();
+
         //show connection animation
         $('#landing-txt,#startReading').hide();
         $('.connecting').show();
 
+        var introSelector = $("#introText h2:first");
 
-        setTimeout(function()
-        { //if sound end
+        setTimeout(function(){
+            introSelector.fadeIn('slow');
+        }, 2000);
 
+        setTimeout(function(){
+            introSelector.hide();
+            introSelector = introSelector.next().fadeIn('slow');
+        }, 7000);
+
+        setTimeout(function(){
+            introSelector.hide();
+            introSelector = introSelector.next().fadeIn('slow');
+        }, 12000);
+
+        setTimeout(function(){
+            introSelector.hide();
+            introSelector = introSelector.next().fadeIn('slow');
+        }, 17000);
+
+        setTimeout(function(){
+            introSelector.hide();
+            introSelector = introSelector.next().fadeIn('slow');
+        }, 22000);
+
+        setTimeout(function(){
+            introSelector.hide();
+            introSelector = introSelector.next().fadeIn('slow');
+        }, 27000);
+
+
+
+        //modemsound on end
+        $('#ModemSound').get(0).onended = function() {
             //enable scroll and arrow keys
-            $.fn.fullpage.setMouseWheelScrolling(true);
+            //$.fn.fullpage.setAllowScrolling(true);
             $.fn.fullpage.setAllowScrolling(true);
             $.fn.fullpage.setKeyboardScrolling(true);
 
@@ -27,21 +60,22 @@ $(function () {
                 $('#landing-txt,#startReading').show();
                 $('.connecting').hide();
             }, 2000);
+        };
 
-        },5500);
     });
+
+
+    //if screen <= 650px enable scroll disable intro
+    function screenSizeIntroOverwrite() {
+        if($(window).width() <= 650) {
+            //$.fn.fullpage.setAllowScrolling(true);
+            $.fn.fullpage.setAllowScrolling(true);
+            $.fn.fullpage.setKeyboardScrolling(true);
+        }
+    }
+
+
+    $( window ).resize(screenSizeIntroOverwrite());
+
+    screenSizeIntroOverwrite();
 });
-
-
-/*
- * arpa slider
- */
-
-$('.btn-connect').click(function(){
-    //play sound
-    $('#ModemSound').get(0).play();
-});
-
-$('#ModemSound').get(0).onended = function() {
-    $.fn.fullpage.moveSectionDown();
-};
