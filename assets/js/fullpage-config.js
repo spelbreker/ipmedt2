@@ -14,14 +14,16 @@ $(function () {
             anchors:['landing', 'apranet','video','trans-website','domein','trans-big-site','websites','trans-wireless','wireless','trans-future','future'],
             menu: 'nav',
             css3: true,
-            scrollOverflow: true,
+            resize:false,
+            scrollOverflow:true,
+            autoScrolling: true,
 
             afterLoad: function(anchorLink, index){
                 var loadedSection = $(this);
 
                 //using index
                 if(index == 1){
-                    if(firstVisit) {
+                    if(firstVisit && $(window).width() > 750) {
                         $.fn.fullpage.setMouseWheelScrolling(false);
                         $.fn.fullpage.setAllowScrolling(false);
                         $.fn.fullpage.setKeyboardScrolling(false);
@@ -60,7 +62,7 @@ $(function () {
 
                 //wireless vs wired
                 if(anchorLink == 'wireless') {
-
+                    $('#wirelessVideo').get(0).play();
                 }
 
                 //trans
@@ -75,6 +77,14 @@ $(function () {
 
                 lastIndex = anchorLink;
             }
+        });
+
+        //resize workaround
+        $(window).resize(function(){
+            console.log('resize');
+            $('.container').css( "position", "static" );
+            $('.container').css( "top", "0" );
+            $('.container').css( "transform", "none" );
         });
 
     });

@@ -2,12 +2,12 @@
  * Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
  * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
  *
- * Version: 1.3.2 (modified for fullpage.js)
+ * Version: 1.3.6
  *
  */
 (function($) {
 
-  jQuery.fn.extend({
+  $.fn.extend({
     slimScroll: function(options) {
 
       var defaults = {
@@ -100,8 +100,8 @@
             var offset = me.scrollTop();
 
             // find bar and rail
-            bar = me.parent().find('.' + o.barClass);
-            rail = me.parent().find('.' + o.railClass);
+            bar = me.closest('.' + o.barClass);
+            rail = me.closest('.' + o.railClass);
 
             getBarHeight();
 
@@ -129,9 +129,6 @@
               }
               else if ('destroy' in options)
               {
-                // clear slimscroll mouse event listeners
-                detachWheel();
-
                 // remove slimscroll elements
                 bar.remove();
                 rail.remove();
@@ -145,9 +142,16 @@
 
             return;
         }
+        else if ($.isPlainObject(options))
+        {
+            if ('destroy' in options)
+            {
+            	return;
+            }
+        }
 
         // optionally set height to the parent's height
-        o.height = (options.height == 'auto') ? me.parent().height() : options.height;
+        o.height = (o.height == 'auto') ? me.parent().height() : o.height;
 
         // wrap content
         var wrapper = $(divS)
@@ -305,7 +309,7 @@
         }
 
         // attach scroll events
-        attachWheel();
+        attachWheel(this);
 
         function _onWheel(e)
         {
@@ -378,29 +382,16 @@
           hideBar();
         }
 
-        function attachWheel()
+        function attachWheel(target)
         {
           if (window.addEventListener)
           {
-            this.addEventListener('DOMMouseScroll', _onWheel, false );
-            this.addEventListener('mousewheel', _onWheel, false );
+            target.addEventListener('DOMMouseScroll', _onWheel, false );
+            target.addEventListener('mousewheel', _onWheel, false );
           }
           else
           {
             document.attachEvent("onmousewheel", _onWheel)
-          }
-        }
-
-        function detachWheel()
-        {
-          if (window.removeEventListener)
-          {
-            this.removeEventListener('DOMMouseScroll', _onWheel);
-            this.removeEventListener('mousewheel', _onWheel);
-          }
-          else
-          {
-            document.detachEvent('onmousewheel', _onWheel);
           }
         }
 
@@ -472,8 +463,8 @@
     }
   });
 
-  jQuery.fn.extend({
-    slimscroll: jQuery.fn.slimScroll
+  $.fn.extend({
+    slimscroll: $.fn.slimScroll
   });
 
 })(jQuery);
