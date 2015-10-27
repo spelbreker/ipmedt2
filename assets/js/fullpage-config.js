@@ -22,7 +22,7 @@ $(function () {
 
         $('#fullpage').fullpage({
             sectionsColor: ['','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8'],
-            anchors:['landing', 'apranet','video','trans-website','domein','trans-big-site','websites','trans-wireless','wireless','trans-future','future'],
+            anchors:['landing', 'arpanet','video','trans-website','domein','trans-big-site','websites','trans-wireless','wireless','trans-future','future'],
             menu: 'nav',
             css3: true,
             resize:false,
@@ -46,7 +46,7 @@ $(function () {
                     $.fn.fullpage.setKeyboardScrolling(true);
                 }
 
-                if(anchorLink == 'apranet') {
+                if(anchorLink == 'arpanet') {
                     if(arpaVisit) {
                         $('#part-1').show();
                         $('#arpa-img').show();
