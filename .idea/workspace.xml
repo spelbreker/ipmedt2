@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d5bf673-0bdb-4e5c-9a56-9c10e3901f9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/future-video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/phone-video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/arpanet-video.js" afterPath="$PROJECT_DIR$/assets/js/arpanet-video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/fullpage-config.js" afterPath="$PROJECT_DIR$/assets/js/fullpage-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ipmedt2.iws" />
@@ -156,7 +151,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <push-targets>
-      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="dev" />
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="origin" target-branch="master" />
     </push-targets>
   </component>
   <component name="IdeDocumentHistory">
@@ -640,7 +635,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445950766735</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="video's added">
+      <created>1445952633448</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1445952633448</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -705,7 +706,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="animatie updat&#10;style van psd toegepast" />
     <MESSAGE value="+ add full page video&#10;+chart update&#10;+ navigation bar" />
     <MESSAGE value="+ highchart update for background&#10;+ responsive fix&#10;+ little changes" />
     <MESSAGE value="add site preloader&#10;youtube api added&#10;auto start en stop for video" />
@@ -730,7 +730,8 @@
     <MESSAGE value="animation added from michiel" />
     <MESSAGE value="text changes" />
     <MESSAGE value="bronnenlijst" />
-    <option name="LAST_COMMIT_MESSAGE" value="bronnenlijst" />
+    <MESSAGE value="video's added" />
+    <option name="LAST_COMMIT_MESSAGE" value="video's added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
