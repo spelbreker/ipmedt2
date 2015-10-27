@@ -5,13 +5,24 @@ var firstVisit = true;
 var lastIndex = 0;
 var loadedChart = false;
 var loadedBubble = false;
+var arpaVisit = true;
+var domeinVisit = true;
+var websitesVisit = true;
+var wirelessVisit = true;
 
 $(function () {
     $(document).ready(function() {
 
+        //hide tekst parts on slides
+        $('#part-1').hide();
+        $('#arpa-img').hide();
+        $('#part-3').hide();
+        $('#part-4').hide();
+        $('#part-5').hide();
+
         $('#fullpage').fullpage({
             sectionsColor: ['','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8'],
-            anchors:['landing', 'apranet','video','trans-website','domein','trans-big-site','websites','trans-wireless','wireless','trans-future','future'],
+            anchors:['landing', 'arpanet','video','trans-website','domein','trans-big-site','websites','trans-wireless','wireless','trans-future','future'],
             menu: 'nav',
             css3: true,
             resize:false,
@@ -35,6 +46,16 @@ $(function () {
                     $.fn.fullpage.setKeyboardScrolling(true);
                 }
 
+                if(anchorLink == 'arpanet') {
+                    if(arpaVisit) {
+                        $('#part-1').show();
+                        $('#arpa-img').show();
+                        $('#part-1').addClass('animated fadeInLeft');
+                        $('#arpa-img').addClass('animated fadeInRight');
+                        arpaVisit = false;
+                    }
+                }
+
                 if(anchorLink == 'video') {
                     playVideo();
                 } else {
@@ -49,6 +70,12 @@ $(function () {
                         loadWebsiteChart();
                         loadedChart = true;
                     }
+
+                    if(domeinVisit) {
+                        $('#part-3').show();
+                        $('#part-3').addClass('animated fadeInLeft');
+                        domeinVisit = false;
+                    }
                 }
 
                 //website bubles
@@ -58,11 +85,23 @@ $(function () {
                         loadedBubble = true;
                     }
 
+                    if(websitesVisit) {
+                        $('#part-4').show();
+                        $('#part-4').addClass('animated fadeInLeft');
+                        websitesVisit = false;
+                    }
+
                 }
 
                 //wireless vs wired
                 if(anchorLink == 'wireless') {
                     $('#wirelessVideo').get(0).play();
+
+                    if(wirelessVisit) {
+                        $('#part-5').show();
+                        $('#part-5').addClass('animated fadeInLeft');
+                        wirelessVisit = false;
+                    }
                 }
 
                 //trans

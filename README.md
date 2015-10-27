@@ -25,6 +25,7 @@ build less and javascript
 ## CSS libraries
 - Normalize.css (https://github.com/hearsaycorp/normalize)
 - jQuery.fullpage.css (https://github.com/alvarotrigo/fullPage.js)
+- Animate.css (https://daneden.github.io/animate.css/)
 
 ##Javascript libraries
 - jQuery (https://github.com/jquery/jquery)
@@ -54,9 +55,11 @@ build less and javascript
 
 ## Sound sources
 - modem inbel geluid (https://en.wikipedia.org/wiki/File:Dial_up_modem_noises.ogg)
+- sword sound (mp3 tune: https://www.youtube.com/watch?v=th80VEushAE)
 
 ## Videosources
 - HISTORY OF THE INTERNET video (https://www.youtube.com/watch?v=h8K49dD52WA)
+- WIRELESS VS WIRED video (http://www.mediafire.com/download/ddj8lfnf65ed5gt/FREE+2D+Battle+Intro+Template.zip)
 
 ## Text sources
 - Wikipedia (https://nl.wikipedia.org/wiki/Geschiedenis_van_het_internet)
