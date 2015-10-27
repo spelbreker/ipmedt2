@@ -39,6 +39,7 @@ gulp.task('build-css', function() {
             gutil.log(err);
             this.emit('end');
         })
+
         .pipe(plugins.autoprefixer(
             {
                 browsers: [
@@ -55,6 +56,7 @@ gulp.task('build-css', function() {
                 cascade: false
             }
         ))
+
         .pipe(plugins.cssmin())
 		.pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('build/css')).on('error', gutil.log);

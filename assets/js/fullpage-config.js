@@ -9,6 +9,7 @@ var arpaVisit = true;
 var domeinVisit = true;
 var websitesVisit = true;
 var wirelessVisit = true;
+var futureVisit = true;
 
 $(function () {
     $(document).ready(function() {
@@ -19,10 +20,15 @@ $(function () {
         $('#part-3').hide();
         $('#part-4').hide();
         $('#part-5').hide();
+		$('#een').hide();
+		$('#twee').hide();
+		$('#drie').hide();
+		$('#vier').hide();
+		$('#footer').hide();
 
         $('#fullpage').fullpage({
             sectionsColor: ['','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8','#ebebe8'],
-            anchors:['landing', 'arpanet','video','trans-website','domein','trans-big-site','websites','trans-wireless','wireless','trans-future','future'],
+            anchors:['landing', 'arpanet','video','trans-website','domein','trans-big-site','websites','trans-wireless','wireless','trans-future','future', 'whatsnext'],
             menu: 'nav',
             css3: true,
             resize:false,
@@ -111,6 +117,26 @@ $(function () {
                 if(anchorLink == 'future') {
                     playVideoFuture();
                 }
+				
+				if(anchorLink == 'whatsnext') {
+                    if(futureVisit) {
+                        $('#een').show();
+                        $('#een').addClass('animated fadeIn');
+                        $('#twee').show();
+                        $('#twee').addClass('animated fadeIn');
+                        $('#drie').show();
+                        $('#drie').addClass('animated fadeIn');
+                        $('#vier').show();
+                        $('#vier').addClass('animated fadeIn');
+                        futureVisit = false;	
+                    }
+                }
+									
+				if(anchorLink == 'whatsnext') {
+					$('#footer').show();
+				} else {
+					$('#footer').hide();
+				}
 
                 //trans
                 if(anchorLink.indexOf("trans-") > -1) {

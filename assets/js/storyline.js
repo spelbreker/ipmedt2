@@ -63,19 +63,4 @@ $(function () {
         };
 
     });
-
-
-    //if screen <= 650px enable scroll disable intro
-    function screenSizeIntroOverwrite() {
-        if($(window).width() <= 650) {
-            //$.fn.fullpage.setAllowScrolling(true);
-            $.fn.fullpage.setAllowScrolling(true);
-            $.fn.fullpage.setKeyboardScrolling(true);
-        }
-    }
-
-
-    $( window ).resize(screenSizeIntroOverwrite());
-
-    screenSizeIntroOverwrite();
 });
