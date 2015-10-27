@@ -41,6 +41,46 @@ function onYouTubeIframeAPIReady() {
             'onStateChange': onPlayerStateChange
         }
     });
+
+    //load future video
+    playerFuture = new YT.Player('future-vid', {
+        height: '315',
+        width: '560',
+        videoId: 'X89CFmR98BE',
+        playerVars: {
+            controls: 1,
+            showinfo: 0,
+            autohide: 2,
+            modestbranding: 1,
+            wmode: "opaque",
+            end: 192,
+            //start: 1
+        },
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+
+    //load phone video
+    playerPhone = new YT.Player('panic-vid', {
+        height: '315',
+        width: '560',
+        videoId: 'UQDqf-Vfl6Q',
+        playerVars: {
+            controls: 1,
+            showinfo: 0,
+            autohide: 2,
+            modestbranding: 1,
+            wmode: "opaque",
+            end: 29,
+            //start: 1
+        },
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
 }
 function onPlayerReady(event) {
     event.target.setVolume(100);

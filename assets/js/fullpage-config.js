@@ -93,6 +93,10 @@ $(function () {
 
                 }
 
+                if(anchorLink == 'trans-wireless') {
+                    playVideoPhone();
+                }
+
                 //wireless vs wired
                 if(anchorLink == 'wireless') {
                     $('#wirelessVideo').get(0).play();
@@ -102,6 +106,10 @@ $(function () {
                         $('#part-5').addClass('animated fadeInLeft');
                         wirelessVisit = false;
                     }
+                }
+
+                if(anchorLink == 'future') {
+                    playVideoFuture();
                 }
 
                 //trans
