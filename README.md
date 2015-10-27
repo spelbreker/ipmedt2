@@ -60,6 +60,8 @@ build less and javascript
 ## Videosources
 - HISTORY OF THE INTERNET video (https://www.youtube.com/watch?v=h8K49dD52WA)
 - WIRELESS VS WIRED video (http://www.mediafire.com/download/ddj8lfnf65ed5gt/FREE+2D+Battle+Intro+Template.zip)
+- FUTURE (https://www.youtube.com/watch?v=X89CFmR98BE)
+- WIRELESS VS WIRED transistion video (https://www.youtube.com/watch?v=UQDqf-Vfl6Q)
 
 ## Text sources
 - Wikipedia (https://nl.wikipedia.org/wiki/Geschiedenis_van_het_internet)
